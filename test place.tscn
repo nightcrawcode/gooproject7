@@ -1,12 +1,21 @@
-[gd_scene load_steps=2 format=3 uid="uid://d0bxfsbvi165m"]
+[gd_scene load_steps=4 format=3 uid="uid://d0bxfsbvi165m"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_c4o1x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_61vrx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_quhac"]
+material = SubResource("StandardMaterial3D_61vrx")
 
 [node name="TestPlace" type="Node3D"]
 
 [node name="floor" type="MeshInstance3D" parent="."]
 transform = Transform3D(-5.43201, 0, 0, 0, 0.26844, 0, 0, 0, 5.78946, 0.00454874, 0.0827513, 0.0169516)
 mesh = SubResource("BoxMesh_c4o1x")
+
+[node name="floor2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-7.14644, 0, 0, 0, 3.10328, 0, 0, 0, 0.361489, 0.353094, 1.67998, -3.03326)
+mesh = SubResource("BoxMesh_quhac")
 
 [node name="Camera" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.419006, 1.02209, 3.30597)

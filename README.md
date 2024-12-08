@@ -20,6 +20,6 @@ a lot to me :) owo
 # Credits
 Game by: Drwhomust
 Uses Orchestrator plugin by CraterCrash
-
 transfur inspired by changed, changed new horizons, kaiju paradise, and
 Neko Infection (old)
+And this game uses godot
