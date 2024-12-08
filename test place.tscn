@@ -10,6 +10,3 @@ mesh = SubResource("BoxMesh_c4o1x")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.317711, 1.14558, 2.5106)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.75655, 0.653936, 0, -0.653936, 0.75655, 0.223089, 4.34529, 5.04964)
