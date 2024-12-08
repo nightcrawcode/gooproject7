@@ -1,11 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://blnvenh8g58k2"]
+[gd_scene load_steps=4 format=3 uid="uid://blnvenh8g58k2"]
+
+[ext_resource type="Script" uid="uid://duj20njmx7jsb" path="res://player/startmessage.torch" id="1_0w5o5"]
+[ext_resource type="Script" uid="uid://cs1lukjpv5dq3" path="res://player/movement.torch" id="2_tys0d"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_1he8b"]
 
 [node name="Testplayer" type="Node3D"]
+script = ExtResource("1_0w5o5")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_1he8b")
+script = ExtResource("2_tys0d")
 
 [node name="Camera3D" type="Camera3D" parent="MeshInstance3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.567273, 0.211331)
