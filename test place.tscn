@@ -21,4 +21,4 @@ mesh = SubResource("BoxMesh_quhac")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.419006, 1.02209, 3.30597)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.179523, 0.983754, 0, -0.983754, 0.179523, -0.85568, 5.08529, 3.61262)
+transform = Transform3D(1, 0, 0, 0, 0.179523, 0.983754, 0, -0.983754, 0.179523, -0.844225, 5.09904, 3.62216)
