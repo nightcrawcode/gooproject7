@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5ifnj6tr608k"]
+[gd_scene load_steps=3 format=3 uid="uid://c5ifnj6tr608k"]
+
+[ext_resource type="Script" uid="uid://2oeljs4i1e8r" path="res://assets/testplayer.torch" id="1_lpjl5"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_64ov6"]
 
 [node name="Goo1" type="Node3D"]
+script = ExtResource("1_lpjl5")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.18799, 0)

@@ -1,0 +1,71 @@
+[orchestration type="OScript" load_steps=5 format=3 uid="uid://2oeljs4i1e8r"]
+
+[obj type="OScriptFunction" id="OScriptFunction_2urmn"]
+guid = "F28E9326-D07B-4AC4-8F4D-8C28EFFA36D9"
+method = {
+"name": &"_init",
+"flags": 73
+}
+id = 0
+
+[obj type="OScriptGraph" id="OScriptGraph_sb0cx"]
+graph_name = &"EventGraph"
+offset = Vector2(-8.25873, 102.831)
+flags = 8
+nodes = Array[int]([0, 1])
+functions = Array[int]([0])
+
+[obj type="OScriptNodeEvent" id="OScriptNodeEvent_ptjrx"]
+function_id = "F28E9326-D07B-4AC4-8F4D-8C28EFFA36D9"
+id = 0
+position = Vector2(200, 180)
+pin_data = Array[Dictionary]([{
+"pin_name": &"ExecOut",
+"dir": 1,
+"flags": 4
+}])
+
+[obj type="OScriptNodePrintString" id="OScriptNodePrintString_rvjis"]
+id = 1
+position = Vector2(440, 160)
+pin_data = Array[Dictionary]([{
+"pin_name": &"ExecIn",
+"flags": 4
+}, {
+"pin_name": &"Text",
+"type": 4,
+"flags": 2,
+"dv": "The player has waken"
+}, {
+"pin_name": &"PrintToScreen",
+"type": 1,
+"flags": 2,
+"dv": false
+}, {
+"pin_name": &"PrintToLog",
+"type": 1,
+"flags": 2,
+"dv": true
+}, {
+"pin_name": &"TextColor",
+"type": 20,
+"flags": 2,
+"dv": Color(1, 1, 1, 1)
+}, {
+"pin_name": &"Duration",
+"type": 3,
+"flags": 2,
+"dv": 1.0,
+"gdv": 0
+}, {
+"pin_name": &"ExecOut",
+"dir": 1,
+"flags": 4
+}])
+
+[resource]
+base_type = &"Node3D"
+functions = Array[OScriptFunction]([SubResource("OScriptFunction_2urmn")])
+connections = Array[int]([0, 0, 1, 0])
+nodes = Array[OScriptNode]([SubResource("OScriptNodeEvent_ptjrx"), SubResource("OScriptNodePrintString_rvjis")])
+graphs = Array[OScriptGraph]([SubResource("OScriptGraph_sb0cx")])

@@ -24,4 +24,4 @@ mesh = SubResource("BoxMesh_quhac")
 transform = Transform3D(1, 0, 0, 0, 0.179523, 0.983754, 0, -0.983754, 0.179523, -0.844225, 5.09904, 3.62216)
 
 [node name="Goo1" parent="." instance=ExtResource("1_hvmf0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.42916, -0.298133, 0.342641)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.195646, 0.462561, 1.70418)
