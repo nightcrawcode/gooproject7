@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cud3vwfcaeors"]
+
+[ext_resource type="Texture2D" uid="uid://b7iqp4oqh0ds1" path="res://image-menu/GP7 background.png" id="1_awhyy"]
+
+[node name="Menu" type="Node2D"]
+
+[node name="Gp7Background" type="Sprite2D" parent="."]
+position = Vector2(579.75, 439.5)
+scale = Vector2(0.329105, 0.352823)
+texture = ExtResource("1_awhyy")
