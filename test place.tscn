@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0bxfsbvi165m"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_c4o1x"]
+
+[node name="TestPlace" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.43201, 0, 0, 0, 0.26844, 0, 0, 0, 5.78946, 0.00344963, 0.0827513, -0.000291348)
+mesh = SubResource("BoxMesh_c4o1x")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.317711, 1.14558, 2.5106)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.75655, 0.653936, 0, -0.653936, 0.75655, 0.0741021, 2.98427, 2.01134)
