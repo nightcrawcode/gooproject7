@@ -1,10 +1,59 @@
-[orchestration type="OScript" load_steps=2 format=3 uid="uid://cs1lukjpv5dq3"]
+[orchestration type="OScript" load_steps=7 format=3 uid="uid://cs1lukjpv5dq3"]
+
+[obj type="OScriptFunction" id="OScriptFunction_6erhe"]
+guid = "85B35CDE-3237-4017-909F-17BC0CDE5581"
+method = {
+"name": &"forward"
+}
+user_defined = true
+id = 1
 
 [obj type="OScriptGraph" id="OScriptGraph_53ctd"]
 graph_name = &"EventGraph"
-offset = Vector2(0, -212)
+offset = Vector2(29.9199, -387.377)
+zoom = 1.4641
 flags = 8
+nodes = Array[int]([0])
+
+[obj type="OScriptGraph" id="OScriptGraph_s8pxx"]
+graph_name = &"forward"
+offset = Vector2(-480, -246.25)
+flags = 22
+nodes = Array[int]([1])
+functions = Array[int]([1])
+
+[obj type="OScriptNodeInputAction" id="OScriptNodeInputAction_ji16j"]
+action = "Forward"
+id = 0
+position = Vector2(60, -160)
+pin_data = Array[Dictionary]([{
+"pin_name": &"state",
+"type": 1,
+"dir": 1,
+"flags": 2,
+"label": "Pressed",
+"dv": false
+}])
+
+[obj type="OScriptNodeFunctionEntry" id="OScriptNodeFunctionEntry_yf1fm"]
+function_id = "85B35CDE-3237-4017-909F-17BC0CDE5581"
+id = 1
+pin_data = Array[Dictionary]([{
+"pin_name": &"ExecOut",
+"dir": 1,
+"flags": 4
+}])
+
+[obj type="OScriptVariable" id="OScriptVariable_gkhep"]
+name = "speed"
+category = "Default"
+classification = "type:int"
+type = 2
+default_value = 0
 
 [resource]
 base_type = &"MeshInstance3D"
-graphs = Array[OScriptGraph]([SubResource("OScriptGraph_53ctd")])
+variables = Array[OScriptVariable]([SubResource("OScriptVariable_gkhep")])
+functions = Array[OScriptFunction]([SubResource("OScriptFunction_6erhe")])
+nodes = Array[OScriptNode]([SubResource("OScriptNodeInputAction_ji16j"), SubResource("OScriptNodeFunctionEntry_yf1fm")])
+graphs = Array[OScriptGraph]([SubResource("OScriptGraph_53ctd"), SubResource("OScriptGraph_s8pxx")])
