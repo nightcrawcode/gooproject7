@@ -10,14 +10,13 @@ id = 1
 
 [obj type="OScriptGraph" id="OScriptGraph_53ctd"]
 graph_name = &"EventGraph"
-offset = Vector2(29.9199, -387.377)
+offset = Vector2(29.9199, -234.256)
 zoom = 1.4641
 flags = 8
 nodes = Array[int]([0])
 
 [obj type="OScriptGraph" id="OScriptGraph_s8pxx"]
 graph_name = &"forward"
-offset = Vector2(-480, -246.25)
 flags = 22
 nodes = Array[int]([1])
 functions = Array[int]([1])
