@@ -1,10 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://cud3vwfcaeors"]
+[gd_scene load_steps=3 format=3 uid="uid://cud3vwfcaeors"]
 
 [ext_resource type="Texture2D" uid="uid://b7iqp4oqh0ds1" path="res://image-menu/GP7 background.png" id="1_awhyy"]
+[ext_resource type="Texture2D" uid="uid://dupnh7437lx32" path="res://icon.svg" id="2_t2rmq"]
 
 [node name="Menu" type="Node2D"]
 
 [node name="Gp7Background" type="Sprite2D" parent="."]
-position = Vector2(579.75, 439.5)
+position = Vector2(560, 425)
 scale = Vector2(0.329105, 0.352823)
 texture = ExtResource("1_awhyy")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(1239, 62)
+texture = ExtResource("2_t2rmq")
