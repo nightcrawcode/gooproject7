@@ -22,4 +22,4 @@ mesh = SubResource("BoxMesh_quhac")
 transform = Transform3D(1, 0, 0, 0, 0.179523, 0.983754, 0, -0.983754, 0.179523, -0.844225, 5.09904, 3.62216)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.88832, 2.9059)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.293361, 1.88832, 2.9059)
