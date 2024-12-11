@@ -27,5 +27,5 @@ Neko Infection (old)
 
 shooter stuff inspired by splatoon
 
-And this game uses godot
+And this game uses GoDot
 
