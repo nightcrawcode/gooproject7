@@ -6,7 +6,7 @@ Play a new FPS game
 
 # How to install
 Just download the latest verison from github, extract the contents
-then run the executable. (depending on the system it could be a `.exe`, `.app`, `.sh`)
+then run the executable. (depending on the system OS it could be a `.exe`, `.app`, `.sh`)
 
 but the game should work from there. if you get any bugs please report it to me
 so i can fix it!!! >:3
