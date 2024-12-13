@@ -20,3 +20,6 @@ mesh = SubResource("BoxMesh_quhac")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.293361, 1.88832, 2.9059)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.995364, 0.0961759, 0, -0.0961759, 0.995364, -0.280748, 4.56216, 5.31939)
